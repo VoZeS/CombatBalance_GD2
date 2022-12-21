@@ -43,7 +43,7 @@ RenderSettings:
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 11
+  serializedVersion: 12
   m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
@@ -98,7 +98,8 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_LightingSettings: {fileID: 4890085278179872738, guid: dd4fed1a004ff3c47b25eaa0d03a3752,
+    type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -118,6 +119,8 @@ NavMeshSettings:
     manualTileSize: 0
     tileSize: 256
     accuratePlacement: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
@@ -134,7 +137,7 @@ GameObject:
   - component: {fileID: 8695804}
   - component: {fileID: 8695807}
   m_Layer: 0
-  m_Name: Spider
+  m_Name: Sam
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -154,8 +157,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Team: 0
   CurrentHealth: 0
-  MaxHealth: 100
-  PossibleCommands: 000000000200000001000000
+  MaxHealth: 20
+  BaseDefense: 3
+  BaseAttack: 3
+  PossibleCommands: 00000000
 --- !u!212 &8695805
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -167,10 +172,12 @@ SpriteRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -217,6 +224,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -6.142, y: 2.587, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 921600517}
   m_RootOrder: 0
@@ -279,8 +287,6 @@ MonoBehaviour:
   Entities:
   - {fileID: 8695804}
   - {fileID: 2057409986}
-  - {fileID: 1076451287}
-  - {fileID: 1612530094}
 --- !u!4 &385116442
 Transform:
   m_ObjectHideFlags: 0
@@ -291,6 +297,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 67.27427, y: 36.942303, z: -6.9344416}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -374,6 +381,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -404,6 +412,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8695806}
   - {fileID: 2057409988}
@@ -425,12 +434,12 @@ GameObject:
   - component: {fileID: 1076451287}
   - component: {fileID: 1076451286}
   m_Layer: 0
-  m_Name: Bat
+  m_Name: Max
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &1076451286
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -472,6 +481,8 @@ MonoBehaviour:
   Team: 0
   CurrentHealth: 0
   MaxHealth: 100
+  BaseDefense: 5
+  BaseAttack: 10
   PossibleCommands: 000000000200000001000000
 --- !u!212 &1076451288
 SpriteRenderer:
@@ -484,10 +495,12 @@ SpriteRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -534,6 +547,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -4.14, y: 0.21, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 921600517}
   m_RootOrder: 2
@@ -551,12 +565,12 @@ GameObject:
   - component: {fileID: 1612530094}
   - component: {fileID: 1612530093}
   m_Layer: 0
-  m_Name: Demon
+  m_Name: Morgan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &1612530093
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -598,6 +612,8 @@ MonoBehaviour:
   Team: 1
   CurrentHealth: 0
   MaxHealth: 100
+  BaseDefense: 5
+  BaseAttack: 10
   PossibleCommands: 010000000000000002000000
 --- !u!212 &1612530095
 SpriteRenderer:
@@ -610,10 +626,12 @@ SpriteRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -660,6 +678,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 4.11, y: 0.37, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 921600517}
   m_RootOrder: 3
@@ -726,6 +745,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -743,7 +763,7 @@ GameObject:
   - component: {fileID: 2057409986}
   - component: {fileID: 2057409989}
   m_Layer: 0
-  m_Name: Skull
+  m_Name: Minion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -763,8 +783,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Team: 1
   CurrentHealth: 0
-  MaxHealth: 100
-  PossibleCommands: 000000000100000002000000
+  MaxHealth: 8
+  BaseDefense: 4
+  BaseAttack: 3
+  PossibleCommands: 00000000
 --- !u!212 &2057409987
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -776,10 +798,12 @@ SpriteRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -826,6 +850,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 6.67, y: 2.81, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 921600517}
   m_RootOrder: 1
@@ -898,6 +923,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 67.27427, y: 36.942303, z: -6.9344416}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3

@@ -28,13 +28,13 @@ public class CombatManager_Auto : MonoBehaviour
     int[] winB = new int[20];
     int iteration = 0;
 
-    int _hp;
+    int[] _hp = new int[20];
 
     void Sensitivity()
     {
         for (int i = 0; i < 20; i++)
         {
-            _hp = i * 10;
+            _hp [i]= i * 10;
             RepeatBattle();
             iteration++;
         }
@@ -49,13 +49,17 @@ public class CombatManager_Auto : MonoBehaviour
 
         StreamWriter writer = new StreamWriter(path, true);
 
+        writer.WriteLine("\n New Battle!");
+
         for (int i = 0; i < 20; i++)
         {
-            writer.WriteLine(i*20+";"+winA[i]+";"+winB[i]);
+            writer.WriteLine("Variable: "+ _hp[i] + "; Win A: " + winA[i] + "; Win B: " + winB[i]);
         }
         
 
         writer.Close();
+
+        Debug.Log("All Writted");
     }
 
     void RepeatBattle()
@@ -80,10 +84,10 @@ public class CombatManager_Auto : MonoBehaviour
     {
         foreach (var fighter in EntityManager.AllFighters)
         {
-            fighter.SetParameters(100, 10, 5);
+            fighter.SetParameters((int)fighter.MaxHealth, (int)fighter.BaseAttack, (int)fighter.BaseDefense);
         }
 
-        EntityManager.AllFighters[2].SetParameters(_hp, 10, 5);
+        EntityManager.AllFighters[1].SetParameters(_hp[iteration], (int)EntityManager.AllFighters[1].BaseAttack, (int)EntityManager.AllFighters[1].BaseDefense);
     }
 
     void DoAllTurns()

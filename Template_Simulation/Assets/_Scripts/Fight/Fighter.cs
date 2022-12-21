@@ -8,11 +8,11 @@ public class Fighter : Entity
     public float CurrentHealth;
     public float MaxHealth = 100;
 
-    private float BaseDefense=5;
+    public float BaseDefense=5;
     private float RoundDefense;
     public float Defense => BaseDefense + RoundDefense;
 
-    private float BaseAttack=10;
+    public float BaseAttack=10;
     private float RoundAttack;
     public float Attack => BaseAttack + RoundAttack;
 
