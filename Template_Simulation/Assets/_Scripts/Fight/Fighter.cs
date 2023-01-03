@@ -8,11 +8,11 @@ public class Fighter : Entity
     public float CurrentHealth;
     public float MaxHealth = 100;
 
-    public float BaseDefense=5;
+    public float BaseDefense = 5;
     private float RoundDefense;
     public float Defense => BaseDefense + RoundDefense;
 
-    public float BaseAttack=10;
+    public float BaseAttack = 10;
     private float RoundAttack;
     public float Attack => BaseAttack + RoundAttack;
 
@@ -32,7 +32,7 @@ public class Fighter : Entity
         CurrentHealth = MaxHealth;
     }
 
-    
+
 
     public void TakeDamage(float damage)
     {

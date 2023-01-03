@@ -9,9 +9,9 @@ using Random = UnityEngine.Random;
 public class CombatManager_Auto : MonoBehaviour
 {
     public EntityManager EntityManager;
-   
+
     public Invoker Invoker;
- 
+
 
     private FightCommandTypes _chosenType;
     private CommandFactory _factory;
@@ -34,7 +34,7 @@ public class CombatManager_Auto : MonoBehaviour
     {
         for (int i = 0; i < 20; i++)
         {
-            _hp [i]= i * 10;
+            _hp[i] = i * 10;
             RepeatBattle();
             iteration++;
         }
@@ -49,13 +49,12 @@ public class CombatManager_Auto : MonoBehaviour
 
         StreamWriter writer = new StreamWriter(path, true);
 
-        writer.WriteLine("\n New Battle!");
+        writer.WriteLine("\nNew Battle!");
 
         for (int i = 0; i < 20; i++)
         {
-            writer.WriteLine("Variable: "+ _hp[i] + "; Win A: " + winA[i] + "; Win B: " + winB[i]);
+            writer.WriteLine("Variable: HP ->" + _hp[i] + "; Win A: " + winA[i] + "; Win B: " + winB[i]);
         }
-        
 
         writer.Close();
 
@@ -64,7 +63,7 @@ public class CombatManager_Auto : MonoBehaviour
 
     void RepeatBattle()
     {
-        
+
 
         int nSimulations = 10;
         for (int i = 0; i < nSimulations; i++)
@@ -114,7 +113,7 @@ public class CombatManager_Auto : MonoBehaviour
 
     void DoOneTurn()
     {
-       
+
         _currentCommand = GetCommand();
         var target = ChooseTarget(_currentCommand);
         _currentCommand.SetFighters(EntityManager.ActiveFighter, target);
@@ -144,7 +143,7 @@ public class CombatManager_Auto : MonoBehaviour
 
     }
 
-     
+
 
     private Fighter ChooseTarget(FightCommand _currentCommand)
     {
@@ -182,7 +181,7 @@ public class CombatManager_Auto : MonoBehaviour
         //TargetChooser.StartChoose(possibleTargets);
     }
 
-   
- 
+
+
 
 }
