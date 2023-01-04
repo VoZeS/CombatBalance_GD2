@@ -18,10 +18,14 @@ public class MeleeComand : FightCommand
     public override void Excecute()
     {
         _target.TakeDamage(_executor.Attack);
+        _executor.CurrentAmmo--;
+
     }
 
     public override void Undo()
     {
         _target.TakeDamage(-_executor.Attack);
+        _executor.CurrentAmmo++;
+
     }
 }

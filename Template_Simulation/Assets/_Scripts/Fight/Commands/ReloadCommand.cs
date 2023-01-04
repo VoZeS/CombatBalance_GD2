@@ -22,6 +22,8 @@ public class ReloadCommand : FightCommand
     public override void Excecute()
     {
         _target.CurrentAmmo = _target.MaxAmmo;
+
+        Debug.Log("Ammo: " +  _target.CurrentAmmo);
     }
 
     public override void Undo()

@@ -83,10 +83,12 @@ public class CombatManager_Auto : MonoBehaviour
     {
         foreach (var fighter in EntityManager.AllFighters)
         {
-            fighter.SetParameters((int)fighter.MaxHealth, (int)fighter.BaseAttack, (int)fighter.BaseDefense);
+            fighter.SetParameters((int)fighter.MaxHealth, (int)fighter.BaseAttack, (int)fighter.BaseDefense, fighter.MaxAmmo);
         }
 
-        EntityManager.AllFighters[1].SetParameters(_hp[iteration], (int)EntityManager.AllFighters[1].BaseAttack, (int)EntityManager.AllFighters[1].BaseDefense);
+        EntityManager.AllFighters[1].SetParameters(_hp[iteration], (int)EntityManager.AllFighters[1].BaseAttack, (int)EntityManager.AllFighters[1].BaseDefense, EntityManager.AllFighters[1].MaxAmmo);
+
+        Debug.Log("Health: " + EntityManager.AllFighters[1].CurrentHealth);
     }
 
     void DoAllTurns()
@@ -94,8 +96,8 @@ public class CombatManager_Auto : MonoBehaviour
         Team winner = Team.None;
         while (winner == Team.None)
         {
-            DoOneTurn();
             winner = GetWinner();
+            DoOneTurn();
             //Debug.Log("Round: " + ++_round);
         }
         //Debug.Log("Winner is: " + winner);
@@ -113,65 +115,56 @@ public class CombatManager_Auto : MonoBehaviour
 
     void DoOneTurn()
     {
-        // ---------------------------------------------------------------------- Ability Test
-        //int rdm = Random.Range(0, 20);
-        //if(rdm >= 10 && rdm <= 11)
+        //if (EntityManager.ActiveFighter.CurrentAmmo <= 0)
         //{
-        //    if(EntityManager.ActiveFighter.CurrentAmmo <= 0)
-        //    {
-        //        DoAction(FightCommandTypes.Reload);
+        //    DoAction(FightCommandTypes.Reload);
 
-        //        Debug.Log("Reloaded!");
+        //    Debug.Log("Reloaded!");
 
-        //    }
-        //    else
-        //    {
-        //        EntityManager.ActiveFighter.BaseAttack *= 1.1f;
-        //        _currentCommand = GetCommand();
-        //        var target = ChooseTarget(_currentCommand);
-        //        _currentCommand.SetFighters(EntityManager.ActiveFighter, target);
-        //        _currentCommand.Excecute();
-        //        EntityManager.ActiveFighter.ResetFighter();
-        //        EntityManager.SetNextEntity();
-
-        //        Debug.Log("Attack *= 1.1f");
-
-        //    }
-
-        //}
-        //else if(rdm >= 4 && rdm <= 16)
-        //{
-        //    if (EntityManager.ActiveFighter.CurrentAmmo <= 0)
-        //    {
-        //        DoAction(FightCommandTypes.Reload);
-
-        //        Debug.Log("Reloaded!");
-
-        //    }
-        //    else
-        //    {
-        //        _currentCommand = GetCommand();
-        //        var target = ChooseTarget(_currentCommand);
-        //        _currentCommand.SetFighters(EntityManager.ActiveFighter, target);
-        //        _currentCommand.Excecute();
-        //        EntityManager.ActiveFighter.ResetFighter();
-        //        EntityManager.SetNextEntity();
-
-        //        Debug.Log("Normal Attack");
-
-        //    }
         //}
         //else
-        //{
-        //    Debug.Log("Failed!");
-        //}
+        {
 
-        //_currentCommand = GetCommand();
-        //var target = ChooseTarget(_currentCommand);
-        //_currentCommand.SetFighters(EntityManager.ActiveFighter, target);
-        //_currentCommand.Excecute();
-        //EntityManager.ActiveFighter.ResetFighter();
-        //EntityManager.SetNextEntity();
+            // ---------------------------------------------------------------------- Ability Test
+            float rdm = Random.Range(0.0f, 20.0f);
+            if (rdm >= 10.0f && rdm <= 11.0f)
+            {
+                    EntityManager.ActiveFighter.BaseAttack *= 1.1f;
+                    _currentCommand = GetCommand();
+                    var target = ChooseTarget(_currentCommand);
+                    _currentCommand.SetFighters(EntityManager.ActiveFighter, target);
+                    _currentCommand.Excecute();
+                    EntityManager.ActiveFighter.ResetFighter();
+                    EntityManager.SetNextEntity();
+
+                    //Debug.Log("Attack *= 1.1f");
+
+            }
+            else if (rdm >= 4.0f && rdm <= 16.0f)
+            {
+                    EntityManager.ActiveFighter.BaseAttack = EntityManager.ActiveFighter.InitialBaseAttack;
+                    _currentCommand = GetCommand();
+                    var target = ChooseTarget(_currentCommand);
+                    _currentCommand.SetFighters(EntityManager.ActiveFighter, target);
+                    _currentCommand.Excecute();
+                    EntityManager.ActiveFighter.ResetFighter();
+                    EntityManager.SetNextEntity();
+
+                   // Debug.Log("Normal Attack");
+            }
+            else
+            {
+                //Debug.Log("Failed!");
+            }
+
+            //_currentCommand = GetCommand();
+            //var target = ChooseTarget(_currentCommand);
+            //_currentCommand.SetFighters(EntityManager.ActiveFighter, target);
+            //_currentCommand.Excecute();
+            //EntityManager.ActiveFighter.ResetFighter();
+            //EntityManager.SetNextEntity();
+
+        }
     }
 
     FightCommand GetCommand()
@@ -192,7 +185,6 @@ public class CombatManager_Auto : MonoBehaviour
         ChooseTarget(_currentCommand);
         //DoAction(EntityManager.ActiveEntity, EntityManager.OtherEntity, type);
         //NextTurn();
-
     }
 
 

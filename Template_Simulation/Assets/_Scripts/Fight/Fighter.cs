@@ -12,6 +12,7 @@ public class Fighter : Entity
     private float RoundDefense;
     public float Defense => BaseDefense + RoundDefense;
 
+    public float InitialBaseAttack = 10;
     public float BaseAttack = 10;
     private float RoundAttack;
     public float Attack => BaseAttack + RoundAttack;
@@ -45,7 +46,7 @@ public class Fighter : Entity
         CurrentHealth -= realDamage;
 
         OnChange?.Invoke();
-        if (CurrentHealth < 0)
+        if (CurrentHealth <= 0)
             Die();
     }
 
@@ -92,13 +93,17 @@ public class Fighter : Entity
         OnChange?.Invoke();
     }
 
-    public void SetParameters(int hp, int attack, int defense)
+    public void SetParameters(int hp, int attack, int defense, int ammo)
     {
         MaxHealth = hp;
         CurrentHealth = MaxHealth;
 
         BaseAttack = attack;
+        InitialBaseAttack = BaseAttack;
         BaseDefense = defense;
+
+        MaxAmmo = ammo;
+        CurrentAmmo = MaxAmmo;
 
         RoundDefense = 0;
         RoundAttack = 0;
