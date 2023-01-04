@@ -19,7 +19,7 @@
 
     public override void Excecute()
     {
-        _target.AddDefense  (_amount);
+        _target.AddDefense(_amount);
     }
 
     public override void Undo()

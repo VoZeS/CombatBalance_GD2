@@ -159,7 +159,9 @@ MonoBehaviour:
   MaxHealth: 15
   BaseDefense: 2
   BaseAttack: 2
-  PossibleCommands: 00000000
+  CurrentAmmo: 5
+  MaxAmmo: 5
+  PossibleCommands: 000000000500000006000000
 --- !u!212 &8695805
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -546,6 +548,8 @@ MonoBehaviour:
   MaxHealth: 100
   BaseDefense: 5
   BaseAttack: 10
+  CurrentAmmo: 0
+  MaxAmmo: 2
   PossibleCommands: 000000000200000001000000
 --- !u!212 &1076451288
 SpriteRenderer:
@@ -677,6 +681,8 @@ MonoBehaviour:
   MaxHealth: 100
   BaseDefense: 5
   BaseAttack: 10
+  CurrentAmmo: 0
+  MaxAmmo: 2
   PossibleCommands: 010000000000000002000000
 --- !u!212 &1612530095
 SpriteRenderer:
@@ -850,7 +856,9 @@ MonoBehaviour:
   MaxHealth: 8
   BaseDefense: 1
   BaseAttack: 2
-  PossibleCommands: 00000000
+  CurrentAmmo: 0
+  MaxAmmo: 2
+  PossibleCommands: 000000000500000006000000
 --- !u!212 &2057409987
 SpriteRenderer:
   m_ObjectHideFlags: 0

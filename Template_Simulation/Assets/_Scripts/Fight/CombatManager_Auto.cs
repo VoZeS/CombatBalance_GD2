@@ -113,13 +113,58 @@ public class CombatManager_Auto : MonoBehaviour
 
     void DoOneTurn()
     {
+        // ---------------------------------------------------------------------- Ability Test
+        int rdm = Random.Range(0, 20);
+        if(rdm >= 10 && rdm <= 11)
+        {
+            if(EntityManager.ActiveFighter.CurrentAmmo <= 0)
+            {
+                DoAction(FightCommandTypes.Reload);
 
-        _currentCommand = GetCommand();
-        var target = ChooseTarget(_currentCommand);
-        _currentCommand.SetFighters(EntityManager.ActiveFighter, target);
-        _currentCommand.Excecute();
-        EntityManager.ActiveFighter.ResetFighter();
-        EntityManager.SetNextEntity();
+                Debug.Log("Reloaded!");
+
+            }
+            else
+            {
+                EntityManager.ActiveFighter.BaseAttack *= 1.1f;
+                _currentCommand = GetCommand();
+                var target = ChooseTarget(_currentCommand);
+                _currentCommand.SetFighters(EntityManager.ActiveFighter, target);
+                _currentCommand.Excecute();
+                EntityManager.ActiveFighter.ResetFighter();
+                EntityManager.SetNextEntity();
+
+                Debug.Log("Attack *= 1.1f");
+
+            }
+
+        }
+        else if(rdm >= 4 && rdm <= 16)
+        {
+            if (EntityManager.ActiveFighter.CurrentAmmo <= 0)
+            {
+                DoAction(FightCommandTypes.Reload);
+
+                Debug.Log("Reloaded!");
+
+            }
+            else
+            {
+                _currentCommand = GetCommand();
+                var target = ChooseTarget(_currentCommand);
+                _currentCommand.SetFighters(EntityManager.ActiveFighter, target);
+                _currentCommand.Excecute();
+                EntityManager.ActiveFighter.ResetFighter();
+                EntityManager.SetNextEntity();
+
+                Debug.Log("Normal Attack");
+
+            }
+        }
+        else
+        {
+            Debug.Log("Failed!");
+        }
     }
 
     FightCommand GetCommand()

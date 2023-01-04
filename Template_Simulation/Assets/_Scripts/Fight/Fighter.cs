@@ -20,6 +20,9 @@ public class Fighter : Entity
     private float RoundSpeed;
     public float Speed => BaseSpeed + RoundSpeed;
 
+    public int CurrentAmmo;
+    public int MaxAmmo = 2;
+
     public List<FightCommandTypes> PossibleCommands;
 
     public static Action OnChange;

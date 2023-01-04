@@ -39,7 +39,9 @@ public enum FightCommandTypes
     Shield,
     Heal,
     BuffAttack,
-    BuffDefense
+    BuffDefense,
+    Block,
+    Reload
 }
 
 public enum TargetTypes
