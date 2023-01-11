@@ -34,7 +34,7 @@ public class CombatManager_Auto : MonoBehaviour
     {
         for (int i = 0; i < 20; i++)
         {
-            _hp[i] = i * 10;
+            _hp[i] = i * 2;
             RepeatBattle();
             iteration++;
         }
@@ -53,7 +53,7 @@ public class CombatManager_Auto : MonoBehaviour
 
         for (int i = 0; i < 20; i++)
         {
-            writer.WriteLine("Variable: HP ->" + _hp[i] + "; Win A: " + winA[i] + "; Win B: " + winB[i]);
+            writer.WriteLine("Variable: HP -> " + _hp[i] + "; Win A: " + winA[i] + "; Win B: " + winB[i]);
         }
 
         writer.Close();
@@ -83,10 +83,10 @@ public class CombatManager_Auto : MonoBehaviour
     {
         foreach (var fighter in EntityManager.AllFighters)
         {
-            fighter.SetParameters((int)fighter.MaxHealth, (int)fighter.BaseAttack, (int)fighter.BaseDefense, fighter.MaxAmmo);
+            fighter.SetParameters((float)fighter.MaxHealth, (float)fighter.InitialBaseAttack, (float)fighter.BaseDefense, fighter.MaxAmmo);
         }
 
-        EntityManager.AllFighters[1].SetParameters(_hp[iteration], (int)EntityManager.AllFighters[1].BaseAttack, (int)EntityManager.AllFighters[1].BaseDefense, EntityManager.AllFighters[1].MaxAmmo);
+        EntityManager.AllFighters[1].SetParameters(_hp[iteration], (float)EntityManager.AllFighters[1].InitialBaseAttack, (float)EntityManager.AllFighters[1].BaseDefense, EntityManager.AllFighters[1].MaxAmmo);
 
         Debug.Log("Health: " + EntityManager.AllFighters[1].CurrentHealth);
     }
@@ -115,14 +115,7 @@ public class CombatManager_Auto : MonoBehaviour
 
     void DoOneTurn()
     {
-        //if (EntityManager.ActiveFighter.CurrentAmmo <= 0)
-        //{
-        //    DoAction(FightCommandTypes.Reload);
-
-        //    Debug.Log("Reloaded!");
-
-        //}
-        //else
+ 
         {
 
             // ---------------------------------------------------------------------- Ability Test
@@ -164,11 +157,20 @@ public class CombatManager_Auto : MonoBehaviour
             //EntityManager.ActiveFighter.ResetFighter();
             //EntityManager.SetNextEntity();
 
+            Debug.Log("Base Attack: " + EntityManager.ActiveFighter + " = " + EntityManager.ActiveFighter.BaseAttack);
         }
     }
 
     FightCommand GetCommand()
     {
+        if (EntityManager.ActiveFighter.CurrentAmmo <= 0)
+        {
+            Debug.Log("Reloaded!");
+
+            return _factory.GetCommand(FightCommandTypes.Reload);
+        
+        }
+
         var possibleCommandsList = ((Fighter)EntityManager.ActiveEntity).PossibleCommands;
         if (possibleCommandsList.Count == 0)
             return null;

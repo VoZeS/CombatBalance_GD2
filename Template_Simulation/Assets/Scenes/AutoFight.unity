@@ -155,11 +155,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Team: 0
-  CurrentHealth: 15
-  MaxHealth: 15
-  BaseDefense: 2
-  InitialBaseAttack: 2
-  BaseAttack: 2
+  CurrentHealth: 20
+  MaxHealth: 20
+  BaseDefense: 3
+  InitialBaseAttack: 3
+  BaseAttack: 3
   CurrentAmmo: 5
   MaxAmmo: 5
   PossibleCommands: 000000000500000006000000
@@ -289,8 +289,6 @@ MonoBehaviour:
   Entities:
   - {fileID: 8695804}
   - {fileID: 2057409986}
-  - {fileID: 1076451287}
-  - {fileID: 1612530094}
 --- !u!4 &385116442
 Transform:
   m_ObjectHideFlags: 0
@@ -785,7 +783,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SendPointerHoverToParent: 1
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
@@ -857,11 +854,11 @@ MonoBehaviour:
   Team: 1
   CurrentHealth: 8
   MaxHealth: 8
-  BaseDefense: 1
-  InitialBaseAttack: 2
-  BaseAttack: 2
-  CurrentAmmo: 0
-  MaxAmmo: 2
+  BaseDefense: 2
+  InitialBaseAttack: 4
+  BaseAttack: 4
+  CurrentAmmo: 5
+  MaxAmmo: 5
   PossibleCommands: 000000000500000006000000
 --- !u!212 &2057409987
 SpriteRenderer:

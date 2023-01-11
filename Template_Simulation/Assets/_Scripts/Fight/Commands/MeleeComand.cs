@@ -20,6 +20,7 @@ public class MeleeComand : FightCommand
         _target.TakeDamage(_executor.Attack);
         _executor.CurrentAmmo--;
 
+        //Debug.Log("Ammo: " + _target.CurrentAmmo);
     }
 
     public override void Undo()

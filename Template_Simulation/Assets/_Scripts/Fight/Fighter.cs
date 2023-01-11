@@ -93,7 +93,7 @@ public class Fighter : Entity
         OnChange?.Invoke();
     }
 
-    public void SetParameters(int hp, int attack, int defense, int ammo)
+    public void SetParameters(float hp, float attack, float defense, int ammo)
     {
         MaxHealth = hp;
         CurrentHealth = MaxHealth;
