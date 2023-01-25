@@ -42,3 +42,641 @@ Variable: HP -> 32; Win A: 0; Win B: 10
 Variable: HP -> 34; Win A: 1; Win B: 9
 Variable: HP -> 36; Win A: 0; Win B: 10
 Variable: HP -> 38; Win A: 0; Win B: 10
+
+New Battle!
+Variable: HP -> 0; Win A: 10; Win B: 0
+Variable: HP -> 2; Win A: 10; Win B: 0
+Variable: HP -> 4; Win A: 10; Win B: 0
+Variable: HP -> 6; Win A: 10; Win B: 0
+Variable: HP -> 8; Win A: 10; Win B: 0
+Variable: HP -> 10; Win A: 10; Win B: 0
+Variable: HP -> 12; Win A: 10; Win B: 0
+Variable: HP -> 14; Win A: 8; Win B: 2
+Variable: HP -> 16; Win A: 10; Win B: 0
+Variable: HP -> 18; Win A: 6; Win B: 4
+Variable: HP -> 20; Win A: 7; Win B: 3
+Variable: HP -> 22; Win A: 0; Win B: 10
+Variable: HP -> 24; Win A: 1; Win B: 9
+Variable: HP -> 26; Win A: 0; Win B: 10
+Variable: HP -> 28; Win A: 1; Win B: 9
+Variable: HP -> 30; Win A: 1; Win B: 9
+Variable: HP -> 32; Win A: 0; Win B: 10
+Variable: HP -> 34; Win A: 0; Win B: 10
+Variable: HP -> 36; Win A: 0; Win B: 10
+Variable: HP -> 38; Win A: 0; Win B: 10
+
+New Battle!
+Variable: _attack (PLAYER) -> 3; Win A: 10; Win B: 0
+Variable: _attack (PLAYER) -> 4; Win A: 10; Win B: 0
+Variable: _attack (PLAYER) -> 5; Win A: 10; Win B: 0
+Variable: _attack (PLAYER) -> 6; Win A: 10; Win B: 0
+Variable: _attack (PLAYER) -> 7; Win A: 10; Win B: 0
+Variable: _attack (PLAYER) -> 8; Win A: 10; Win B: 0
+Variable: _attack (PLAYER) -> 9; Win A: 10; Win B: 0
+Variable: _attack (PLAYER) -> 10; Win A: 10; Win B: 0
+Variable: _attack (PLAYER) -> 11; Win A: 10; Win B: 0
+Variable: _attack (PLAYER) -> 12; Win A: 10; Win B: 0
+Variable: _attack (PLAYER) -> 13; Win A: 10; Win B: 0
+Variable: _attack (PLAYER) -> 14; Win A: 10; Win B: 0
+Variable: _attack (PLAYER) -> 15; Win A: 10; Win B: 0
+Variable: _attack (PLAYER) -> 16; Win A: 10; Win B: 0
+Variable: _attack (PLAYER) -> 17; Win A: 10; Win B: 0
+Variable: _attack (PLAYER) -> 18; Win A: 10; Win B: 0
+Variable: _attack (PLAYER) -> 19; Win A: 10; Win B: 0
+Variable: _attack (PLAYER) -> 20; Win A: 10; Win B: 0
+Variable: _attack (PLAYER) -> 21; Win A: 10; Win B: 0
+Variable: _attack (PLAYER) -> 22; Win A: 10; Win B: 0
+
+New Battle!
+Variable: _attack (PLAYER) -> 0; Win A: 0; Win B: 10
+Variable: _attack (PLAYER) -> 1; Win A: 0; Win B: 10
+Variable: _attack (PLAYER) -> 2; Win A: 0; Win B: 10
+Variable: _attack (PLAYER) -> 3; Win A: 10; Win B: 0
+Variable: _attack (PLAYER) -> 4; Win A: 10; Win B: 0
+Variable: _attack (PLAYER) -> 5; Win A: 10; Win B: 0
+Variable: _attack (PLAYER) -> 6; Win A: 10; Win B: 0
+Variable: _attack (PLAYER) -> 7; Win A: 10; Win B: 0
+Variable: _attack (PLAYER) -> 8; Win A: 10; Win B: 0
+Variable: _attack (PLAYER) -> 9; Win A: 10; Win B: 0
+Variable: _attack (PLAYER) -> 10; Win A: 10; Win B: 0
+Variable: _attack (PLAYER) -> 11; Win A: 10; Win B: 0
+Variable: _attack (PLAYER) -> 12; Win A: 10; Win B: 0
+Variable: _attack (PLAYER) -> 13; Win A: 10; Win B: 0
+Variable: _attack (PLAYER) -> 14; Win A: 10; Win B: 0
+Variable: _attack (PLAYER) -> 15; Win A: 10; Win B: 0
+Variable: _attack (PLAYER) -> 16; Win A: 10; Win B: 0
+Variable: _attack (PLAYER) -> 17; Win A: 10; Win B: 0
+Variable: _attack (PLAYER) -> 18; Win A: 10; Win B: 0
+Variable: _attack (PLAYER) -> 19; Win A: 10; Win B: 0
+
+New Battle!
+Variable: _attack (PLAYER) -> 0; Win A: 0; Win B: 50
+Variable: _attack (PLAYER) -> 1; Win A: 0; Win B: 50
+Variable: _attack (PLAYER) -> 2; Win A: 0; Win B: 50
+Variable: _attack (PLAYER) -> 3; Win A: 50; Win B: 0
+Variable: _attack (PLAYER) -> 4; Win A: 50; Win B: 0
+Variable: _attack (PLAYER) -> 5; Win A: 50; Win B: 0
+Variable: _attack (PLAYER) -> 6; Win A: 50; Win B: 0
+Variable: _attack (PLAYER) -> 7; Win A: 50; Win B: 0
+Variable: _attack (PLAYER) -> 8; Win A: 50; Win B: 0
+Variable: _attack (PLAYER) -> 9; Win A: 50; Win B: 0
+Variable: _attack (PLAYER) -> 10; Win A: 50; Win B: 0
+Variable: _attack (PLAYER) -> 11; Win A: 50; Win B: 0
+Variable: _attack (PLAYER) -> 12; Win A: 50; Win B: 0
+Variable: _attack (PLAYER) -> 13; Win A: 50; Win B: 0
+Variable: _attack (PLAYER) -> 14; Win A: 50; Win B: 0
+Variable: _attack (PLAYER) -> 15; Win A: 50; Win B: 0
+Variable: _attack (PLAYER) -> 16; Win A: 50; Win B: 0
+Variable: _attack (PLAYER) -> 17; Win A: 50; Win B: 0
+Variable: _attack (PLAYER) -> 18; Win A: 50; Win B: 0
+Variable: _attack (PLAYER) -> 19; Win A: 50; Win B: 0
+
+New Battle!
+Variable: _attack (PLAYER) -> 0; Win A: 0; Win B: 10
+Variable: _attack (PLAYER) -> 1; Win A: 0; Win B: 10
+Variable: _attack (PLAYER) -> 2; Win A: 0; Win B: 10
+Variable: _attack (PLAYER) -> 3; Win A: 2; Win B: 8
+Variable: _attack (PLAYER) -> 4; Win A: 10; Win B: 0
+Variable: _attack (PLAYER) -> 5; Win A: 10; Win B: 0
+Variable: _attack (PLAYER) -> 6; Win A: 10; Win B: 0
+Variable: _attack (PLAYER) -> 7; Win A: 10; Win B: 0
+Variable: _attack (PLAYER) -> 8; Win A: 10; Win B: 0
+Variable: _attack (PLAYER) -> 9; Win A: 10; Win B: 0
+Variable: _attack (PLAYER) -> 10; Win A: 10; Win B: 0
+Variable: _attack (PLAYER) -> 11; Win A: 10; Win B: 0
+Variable: _attack (PLAYER) -> 12; Win A: 10; Win B: 0
+Variable: _attack (PLAYER) -> 13; Win A: 10; Win B: 0
+Variable: _attack (PLAYER) -> 14; Win A: 10; Win B: 0
+Variable: _attack (PLAYER) -> 15; Win A: 10; Win B: 0
+Variable: _attack (PLAYER) -> 16; Win A: 10; Win B: 0
+Variable: _attack (PLAYER) -> 17; Win A: 10; Win B: 0
+Variable: _attack (PLAYER) -> 18; Win A: 10; Win B: 0
+Variable: _attack (PLAYER) -> 19; Win A: 10; Win B: 0
+
+New Battle!
+Variable: _attack (PLAYER) -> 0; Win A: 0; Win B: 10
+Variable: _attack (PLAYER) -> 1; Win A: 0; Win B: 10
+Variable: _attack (PLAYER) -> 2; Win A: 0; Win B: 10
+Variable: _attack (PLAYER) -> 3; Win A: 0; Win B: 10
+Variable: _attack (PLAYER) -> 4; Win A: 0; Win B: 10
+Variable: _attack (PLAYER) -> 5; Win A: 1; Win B: 9
+Variable: _attack (PLAYER) -> 6; Win A: 5; Win B: 5
+Variable: _attack (PLAYER) -> 7; Win A: 8; Win B: 2
+Variable: _attack (PLAYER) -> 8; Win A: 9; Win B: 1
+Variable: _attack (PLAYER) -> 9; Win A: 10; Win B: 0
+Variable: _attack (PLAYER) -> 10; Win A: 9; Win B: 1
+Variable: _attack (PLAYER) -> 11; Win A: 8; Win B: 2
+Variable: _attack (PLAYER) -> 12; Win A: 9; Win B: 1
+Variable: _attack (PLAYER) -> 13; Win A: 10; Win B: 0
+Variable: _attack (PLAYER) -> 14; Win A: 10; Win B: 0
+Variable: _attack (PLAYER) -> 15; Win A: 10; Win B: 0
+Variable: _attack (PLAYER) -> 16; Win A: 10; Win B: 0
+Variable: _attack (PLAYER) -> 17; Win A: 10; Win B: 0
+Variable: _attack (PLAYER) -> 18; Win A: 10; Win B: 0
+Variable: _attack (PLAYER) -> 19; Win A: 10; Win B: 0
+
+New Battle!
+Variable: _attack (PLAYER) -> 10; Win A: 3; Win B: 7
+Variable: _attack (PLAYER) -> 11; Win A: 0; Win B: 10
+Variable: _attack (PLAYER) -> 12; Win A: 7; Win B: 3
+Variable: _attack (PLAYER) -> 13; Win A: 5; Win B: 5
+Variable: _attack (PLAYER) -> 14; Win A: 8; Win B: 2
+Variable: _attack (PLAYER) -> 15; Win A: 7; Win B: 3
+Variable: _attack (PLAYER) -> 16; Win A: 4; Win B: 6
+Variable: _attack (PLAYER) -> 17; Win A: 6; Win B: 4
+Variable: _attack (PLAYER) -> 18; Win A: 8; Win B: 2
+Variable: _attack (PLAYER) -> 19; Win A: 6; Win B: 4
+Variable: _attack (PLAYER) -> 20; Win A: 7; Win B: 3
+Variable: _attack (PLAYER) -> 21; Win A: 7; Win B: 3
+Variable: _attack (PLAYER) -> 22; Win A: 10; Win B: 0
+Variable: _attack (PLAYER) -> 23; Win A: 10; Win B: 0
+Variable: _attack (PLAYER) -> 24; Win A: 10; Win B: 0
+Variable: _attack (PLAYER) -> 25; Win A: 10; Win B: 0
+Variable: _attack (PLAYER) -> 26; Win A: 9; Win B: 1
+Variable: _attack (PLAYER) -> 27; Win A: 10; Win B: 0
+Variable: _attack (PLAYER) -> 28; Win A: 9; Win B: 1
+Variable: _attack (PLAYER) -> 29; Win A: 10; Win B: 0
+
+New Battle!
+Variable: _attack (HANK) -> 0; Win A: 0; Win B: 10
+Variable: _attack (HANK) -> 1; Win A: 0; Win B: 10
+Variable: _attack (HANK) -> 2; Win A: 0; Win B: 10
+Variable: _attack (HANK) -> 3; Win A: 10; Win B: 0
+Variable: _attack (HANK) -> 4; Win A: 10; Win B: 0
+Variable: _attack (HANK) -> 5; Win A: 10; Win B: 0
+Variable: _attack (HANK) -> 6; Win A: 10; Win B: 0
+Variable: _attack (HANK) -> 7; Win A: 10; Win B: 0
+Variable: _attack (HANK) -> 8; Win A: 10; Win B: 0
+Variable: _attack (HANK) -> 9; Win A: 10; Win B: 0
+Variable: _attack (HANK) -> 10; Win A: 10; Win B: 0
+Variable: _attack (HANK) -> 11; Win A: 10; Win B: 0
+Variable: _attack (HANK) -> 12; Win A: 10; Win B: 0
+Variable: _attack (HANK) -> 13; Win A: 10; Win B: 0
+Variable: _attack (HANK) -> 14; Win A: 10; Win B: 0
+Variable: _attack (HANK) -> 15; Win A: 10; Win B: 0
+Variable: _attack (HANK) -> 16; Win A: 10; Win B: 0
+Variable: _attack (HANK) -> 17; Win A: 10; Win B: 0
+Variable: _attack (HANK) -> 18; Win A: 10; Win B: 0
+Variable: _attack (HANK) -> 19; Win A: 10; Win B: 0
+
+New Battle!
+Variable: _attack (HANK) -> 0; Win A: 0; Win B: 10
+Variable: _attack (HANK) -> 1; Win A: 0; Win B: 10
+Variable: _attack (HANK) -> 2; Win A: 0; Win B: 10
+Variable: _attack (HANK) -> 3; Win A: 0; Win B: 10
+Variable: _attack (HANK) -> 4; Win A: 1; Win B: 9
+Variable: _attack (HANK) -> 5; Win A: 3; Win B: 7
+Variable: _attack (HANK) -> 6; Win A: 9; Win B: 1
+Variable: _attack (HANK) -> 7; Win A: 8; Win B: 2
+Variable: _attack (HANK) -> 8; Win A: 9; Win B: 1
+Variable: _attack (HANK) -> 9; Win A: 10; Win B: 0
+Variable: _attack (HANK) -> 10; Win A: 10; Win B: 0
+Variable: _attack (HANK) -> 11; Win A: 10; Win B: 0
+Variable: _attack (HANK) -> 12; Win A: 10; Win B: 0
+Variable: _attack (HANK) -> 13; Win A: 10; Win B: 0
+Variable: _attack (HANK) -> 14; Win A: 10; Win B: 0
+Variable: _attack (HANK) -> 15; Win A: 10; Win B: 0
+Variable: _attack (HANK) -> 16; Win A: 10; Win B: 0
+Variable: _attack (HANK) -> 17; Win A: 10; Win B: 0
+Variable: _attack (HANK) -> 18; Win A: 10; Win B: 0
+Variable: _attack (HANK) -> 19; Win A: 10; Win B: 0
+
+New Battle!
+Variable: _attack (HANK) -> 0; Win A: 0; Win B: 10
+Variable: _attack (HANK) -> 1; Win A: 0; Win B: 10
+Variable: _attack (HANK) -> 2; Win A: 0; Win B: 10
+Variable: _attack (HANK) -> 3; Win A: 2; Win B: 8
+Variable: _attack (HANK) -> 4; Win A: 9; Win B: 1
+Variable: _attack (HANK) -> 5; Win A: 10; Win B: 0
+Variable: _attack (HANK) -> 6; Win A: 10; Win B: 0
+Variable: _attack (HANK) -> 7; Win A: 10; Win B: 0
+Variable: _attack (HANK) -> 8; Win A: 10; Win B: 0
+Variable: _attack (HANK) -> 9; Win A: 10; Win B: 0
+Variable: _attack (HANK) -> 10; Win A: 10; Win B: 0
+Variable: _attack (HANK) -> 11; Win A: 10; Win B: 0
+Variable: _attack (HANK) -> 12; Win A: 10; Win B: 0
+Variable: _attack (HANK) -> 13; Win A: 10; Win B: 0
+Variable: _attack (HANK) -> 14; Win A: 10; Win B: 0
+Variable: _attack (HANK) -> 15; Win A: 10; Win B: 0
+Variable: _attack (HANK) -> 16; Win A: 10; Win B: 0
+Variable: _attack (HANK) -> 17; Win A: 10; Win B: 0
+Variable: _attack (HANK) -> 18; Win A: 10; Win B: 0
+Variable: _attack (HANK) -> 19; Win A: 10; Win B: 0
+
+New Battle!
+Variable: _attack (HANK) -> 0; Win A: 0; Win B: 10
+Variable: _attack (HANK) -> 1; Win A: 0; Win B: 10
+Variable: _attack (HANK) -> 2; Win A: 0; Win B: 10
+Variable: _attack (HANK) -> 3; Win A: 0; Win B: 10
+Variable: _attack (HANK) -> 4; Win A: 0; Win B: 10
+Variable: _attack (HANK) -> 5; Win A: 0; Win B: 10
+Variable: _attack (HANK) -> 6; Win A: 2; Win B: 8
+Variable: _attack (HANK) -> 7; Win A: 6; Win B: 4
+Variable: _attack (HANK) -> 8; Win A: 5; Win B: 5
+Variable: _attack (HANK) -> 9; Win A: 8; Win B: 2
+Variable: _attack (HANK) -> 10; Win A: 8; Win B: 2
+Variable: _attack (HANK) -> 11; Win A: 8; Win B: 2
+Variable: _attack (HANK) -> 12; Win A: 9; Win B: 1
+Variable: _attack (HANK) -> 13; Win A: 10; Win B: 0
+Variable: _attack (HANK) -> 14; Win A: 10; Win B: 0
+Variable: _attack (HANK) -> 15; Win A: 10; Win B: 0
+Variable: _attack (HANK) -> 16; Win A: 8; Win B: 2
+Variable: _attack (HANK) -> 17; Win A: 10; Win B: 0
+Variable: _attack (HANK) -> 18; Win A: 10; Win B: 0
+Variable: _attack (HANK) -> 19; Win A: 9; Win B: 1
+
+New Battle!
+Variable: _attack (HANK) -> 0; Win A: 0; Win B: 10
+Variable: _attack (HANK) -> 1; Win A: 0; Win B: 10
+Variable: _attack (HANK) -> 2; Win A: 0; Win B: 10
+Variable: _attack (HANK) -> 3; Win A: 0; Win B: 10
+Variable: _attack (HANK) -> 4; Win A: 1; Win B: 9
+Variable: _attack (HANK) -> 5; Win A: 7; Win B: 3
+Variable: _attack (HANK) -> 6; Win A: 7; Win B: 3
+Variable: _attack (HANK) -> 7; Win A: 9; Win B: 1
+Variable: _attack (HANK) -> 8; Win A: 9; Win B: 1
+Variable: _attack (HANK) -> 9; Win A: 10; Win B: 0
+Variable: _attack (HANK) -> 10; Win A: 10; Win B: 0
+Variable: _attack (HANK) -> 11; Win A: 10; Win B: 0
+Variable: _attack (HANK) -> 12; Win A: 10; Win B: 0
+Variable: _attack (HANK) -> 13; Win A: 10; Win B: 0
+Variable: _attack (HANK) -> 14; Win A: 10; Win B: 0
+Variable: _attack (HANK) -> 15; Win A: 10; Win B: 0
+Variable: _attack (HANK) -> 16; Win A: 10; Win B: 0
+Variable: _attack (HANK) -> 17; Win A: 10; Win B: 0
+Variable: _attack (HANK) -> 18; Win A: 10; Win B: 0
+Variable: _attack (HANK) -> 19; Win A: 10; Win B: 0
+
+New Battle!
+Variable: _attack (HANK) -> 0; Win A: 0; Win B: 10
+Variable: _attack (HANK) -> 1; Win A: 0; Win B: 10
+Variable: _attack (HANK) -> 2; Win A: 0; Win B: 10
+Variable: _attack (HANK) -> 3; Win A: 0; Win B: 10
+Variable: _attack (HANK) -> 4; Win A: 0; Win B: 10
+Variable: _attack (HANK) -> 5; Win A: 0; Win B: 10
+Variable: _attack (HANK) -> 6; Win A: 0; Win B: 10
+Variable: _attack (HANK) -> 7; Win A: 0; Win B: 10
+Variable: _attack (HANK) -> 8; Win A: 0; Win B: 10
+Variable: _attack (HANK) -> 9; Win A: 0; Win B: 10
+Variable: _attack (HANK) -> 10; Win A: 2; Win B: 8
+Variable: _attack (HANK) -> 11; Win A: 2; Win B: 8
+Variable: _attack (HANK) -> 12; Win A: 8; Win B: 2
+Variable: _attack (HANK) -> 13; Win A: 6; Win B: 4
+Variable: _attack (HANK) -> 14; Win A: 7; Win B: 3
+Variable: _attack (HANK) -> 15; Win A: 4; Win B: 6
+Variable: _attack (HANK) -> 16; Win A: 7; Win B: 3
+Variable: _attack (HANK) -> 17; Win A: 5; Win B: 5
+Variable: _attack (HANK) -> 18; Win A: 6; Win B: 4
+Variable: _attack (HANK) -> 19; Win A: 8; Win B: 2
+
+New Battle!
+Variable: _attack (HANK) -> 10; Win A: 0; Win B: 10
+Variable: _attack (HANK) -> 11; Win A: 0; Win B: 10
+Variable: _attack (HANK) -> 12; Win A: 0; Win B: 10
+Variable: _attack (HANK) -> 13; Win A: 0; Win B: 10
+Variable: _attack (HANK) -> 14; Win A: 2; Win B: 8
+Variable: _attack (HANK) -> 15; Win A: 1; Win B: 9
+Variable: _attack (HANK) -> 16; Win A: 0; Win B: 10
+Variable: _attack (HANK) -> 17; Win A: 1; Win B: 9
+Variable: _attack (HANK) -> 18; Win A: 0; Win B: 10
+Variable: _attack (HANK) -> 19; Win A: 0; Win B: 10
+Variable: _attack (HANK) -> 20; Win A: 1; Win B: 9
+Variable: _attack (HANK) -> 21; Win A: 0; Win B: 10
+Variable: _attack (HANK) -> 22; Win A: 4; Win B: 6
+Variable: _attack (HANK) -> 23; Win A: 4; Win B: 6
+Variable: _attack (HANK) -> 24; Win A: 3; Win B: 7
+Variable: _attack (HANK) -> 25; Win A: 6; Win B: 4
+Variable: _attack (HANK) -> 26; Win A: 3; Win B: 7
+Variable: _attack (HANK) -> 27; Win A: 2; Win B: 8
+Variable: _attack (HANK) -> 28; Win A: 5; Win B: 5
+Variable: _attack (HANK) -> 29; Win A: 5; Win B: 5
+
+New Battle!
+Variable: GRUP DE BATALLES NUMERO -> 0; Win A: 10; Win B: 0
+Variable: GRUP DE BATALLES NUMERO -> 1; Win A: 10; Win B: 0
+Variable: GRUP DE BATALLES NUMERO -> 2; Win A: 10; Win B: 0
+Variable: GRUP DE BATALLES NUMERO -> 3; Win A: 10; Win B: 0
+Variable: GRUP DE BATALLES NUMERO -> 4; Win A: 10; Win B: 0
+Variable: GRUP DE BATALLES NUMERO -> 5; Win A: 10; Win B: 0
+Variable: GRUP DE BATALLES NUMERO -> 6; Win A: 10; Win B: 0
+Variable: GRUP DE BATALLES NUMERO -> 7; Win A: 10; Win B: 0
+Variable: GRUP DE BATALLES NUMERO -> 8; Win A: 10; Win B: 0
+Variable: GRUP DE BATALLES NUMERO -> 9; Win A: 10; Win B: 0
+Variable: GRUP DE BATALLES NUMERO -> 10; Win A: 10; Win B: 0
+Variable: GRUP DE BATALLES NUMERO -> 11; Win A: 10; Win B: 0
+Variable: GRUP DE BATALLES NUMERO -> 12; Win A: 10; Win B: 0
+Variable: GRUP DE BATALLES NUMERO -> 13; Win A: 10; Win B: 0
+Variable: GRUP DE BATALLES NUMERO -> 14; Win A: 10; Win B: 0
+Variable: GRUP DE BATALLES NUMERO -> 15; Win A: 10; Win B: 0
+Variable: GRUP DE BATALLES NUMERO -> 16; Win A: 10; Win B: 0
+Variable: GRUP DE BATALLES NUMERO -> 17; Win A: 10; Win B: 0
+Variable: GRUP DE BATALLES NUMERO -> 18; Win A: 10; Win B: 0
+Variable: GRUP DE BATALLES NUMERO -> 19; Win A: 10; Win B: 0
+
+New Battle!
+Variable: GRUP DE BATALLES NUMERO -> 0; Win A: 1; Win B: 9
+Variable: GRUP DE BATALLES NUMERO -> 1; Win A: 0; Win B: 10
+Variable: GRUP DE BATALLES NUMERO -> 2; Win A: 0; Win B: 10
+Variable: GRUP DE BATALLES NUMERO -> 3; Win A: 0; Win B: 10
+Variable: GRUP DE BATALLES NUMERO -> 4; Win A: 0; Win B: 10
+Variable: GRUP DE BATALLES NUMERO -> 5; Win A: 0; Win B: 10
+Variable: GRUP DE BATALLES NUMERO -> 6; Win A: 0; Win B: 10
+Variable: GRUP DE BATALLES NUMERO -> 7; Win A: 0; Win B: 10
+Variable: GRUP DE BATALLES NUMERO -> 8; Win A: 0; Win B: 10
+Variable: GRUP DE BATALLES NUMERO -> 9; Win A: 0; Win B: 10
+Variable: GRUP DE BATALLES NUMERO -> 10; Win A: 0; Win B: 10
+Variable: GRUP DE BATALLES NUMERO -> 11; Win A: 0; Win B: 10
+Variable: GRUP DE BATALLES NUMERO -> 12; Win A: 0; Win B: 10
+Variable: GRUP DE BATALLES NUMERO -> 13; Win A: 0; Win B: 10
+Variable: GRUP DE BATALLES NUMERO -> 14; Win A: 0; Win B: 10
+Variable: GRUP DE BATALLES NUMERO -> 15; Win A: 0; Win B: 10
+Variable: GRUP DE BATALLES NUMERO -> 16; Win A: 0; Win B: 10
+Variable: GRUP DE BATALLES NUMERO -> 17; Win A: 0; Win B: 10
+Variable: GRUP DE BATALLES NUMERO -> 18; Win A: 0; Win B: 10
+Variable: GRUP DE BATALLES NUMERO -> 19; Win A: 0; Win B: 10
+
+New Battle!
+Variable: GRUP DE BATALLES NUMERO -> 0; Win A: 0; Win B: 10
+Variable: GRUP DE BATALLES NUMERO -> 1; Win A: 0; Win B: 10
+Variable: GRUP DE BATALLES NUMERO -> 2; Win A: 0; Win B: 10
+Variable: GRUP DE BATALLES NUMERO -> 3; Win A: 0; Win B: 10
+Variable: GRUP DE BATALLES NUMERO -> 4; Win A: 0; Win B: 10
+Variable: GRUP DE BATALLES NUMERO -> 5; Win A: 0; Win B: 10
+Variable: GRUP DE BATALLES NUMERO -> 6; Win A: 0; Win B: 10
+Variable: GRUP DE BATALLES NUMERO -> 7; Win A: 0; Win B: 10
+Variable: GRUP DE BATALLES NUMERO -> 8; Win A: 0; Win B: 10
+Variable: GRUP DE BATALLES NUMERO -> 9; Win A: 0; Win B: 10
+Variable: GRUP DE BATALLES NUMERO -> 10; Win A: 0; Win B: 10
+Variable: GRUP DE BATALLES NUMERO -> 11; Win A: 0; Win B: 10
+Variable: GRUP DE BATALLES NUMERO -> 12; Win A: 0; Win B: 10
+Variable: GRUP DE BATALLES NUMERO -> 13; Win A: 0; Win B: 10
+Variable: GRUP DE BATALLES NUMERO -> 14; Win A: 0; Win B: 10
+Variable: GRUP DE BATALLES NUMERO -> 15; Win A: 0; Win B: 10
+Variable: GRUP DE BATALLES NUMERO -> 16; Win A: 0; Win B: 10
+Variable: GRUP DE BATALLES NUMERO -> 17; Win A: 0; Win B: 10
+Variable: GRUP DE BATALLES NUMERO -> 18; Win A: 0; Win B: 10
+Variable: GRUP DE BATALLES NUMERO -> 19; Win A: 0; Win B: 10
+
+New Battle!
+Variable (SAM): _hp -> 10; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 11; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 12; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 13; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 14; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 15; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 16; Win A: 1; Win B: 9
+Variable (SAM): _hp -> 17; Win A: 4; Win B: 6
+Variable (SAM): _hp -> 18; Win A: 1; Win B: 9
+Variable (SAM): _hp -> 19; Win A: 4; Win B: 6
+Variable (SAM): _hp -> 20; Win A: 5; Win B: 5
+Variable (SAM): _hp -> 21; Win A: 6; Win B: 4
+Variable (SAM): _hp -> 22; Win A: 6; Win B: 4
+Variable (SAM): _hp -> 23; Win A: 7; Win B: 3
+Variable (SAM): _hp -> 24; Win A: 8; Win B: 2
+Variable (SAM): _hp -> 25; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 26; Win A: 8; Win B: 2
+Variable (SAM): _hp -> 27; Win A: 8; Win B: 2
+Variable (SAM): _hp -> 28; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 29; Win A: 10; Win B: 0
+
+New Battle!
+Variable: _attack (SAM) -> 3; Win A: 5; Win B: 5
+Variable: _attack (SAM) -> 3,1; Win A: 4; Win B: 6
+Variable: _attack (SAM) -> 3,2; Win A: 7; Win B: 3
+Variable: _attack (SAM) -> 3,3; Win A: 7; Win B: 3
+Variable: _attack (SAM) -> 3,4; Win A: 10; Win B: 0
+Variable: _attack (SAM) -> 3,5; Win A: 9; Win B: 1
+Variable: _attack (SAM) -> 3,6; Win A: 9; Win B: 1
+Variable: _attack (SAM) -> 3,7; Win A: 10; Win B: 0
+Variable: _attack (SAM) -> 3,8; Win A: 10; Win B: 0
+Variable: _attack (SAM) -> 3,9; Win A: 10; Win B: 0
+Variable: _attack (SAM) -> 4; Win A: 9; Win B: 1
+Variable: _attack (SAM) -> 4,1; Win A: 10; Win B: 0
+Variable: _attack (SAM) -> 4,2; Win A: 10; Win B: 0
+Variable: _attack (SAM) -> 4,3; Win A: 10; Win B: 0
+Variable: _attack (SAM) -> 4,4; Win A: 10; Win B: 0
+Variable: _attack (SAM) -> 4,5; Win A: 10; Win B: 0
+Variable: _attack (SAM) -> 4,6; Win A: 10; Win B: 0
+Variable: _attack (SAM) -> 4,7; Win A: 10; Win B: 0
+Variable: _attack (SAM) -> 4,8; Win A: 10; Win B: 0
+Variable: _attack (SAM) -> 4,9; Win A: 10; Win B: 0
+
+New Battle!
+Variable (SAM): _hp -> 25; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 26; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 27; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 28; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 29; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 30; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 31; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 32; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 33; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 34; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 35; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 36; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 37; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 38; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 39; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 40; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 41; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 42; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 43; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 44; Win A: 0; Win B: 10
+
+New Battle!
+Variable (SAM): _hp -> 25; Win A: 7; Win B: 3
+Variable (SAM): _hp -> 26; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 27; Win A: 9; Win B: 1
+Variable (SAM): _hp -> 28; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 29; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 30; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 31; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 32; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 33; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 34; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 35; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 36; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 37; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 38; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 39; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 40; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 41; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 42; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 43; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 44; Win A: 10; Win B: 0
+
+New Battle!
+Variable (SAM): _hp -> 25; Win A: 7; Win B: 3
+Variable (SAM): _hp -> 26; Win A: 9; Win B: 1
+Variable (SAM): _hp -> 27; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 28; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 29; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 30; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 31; Win A: 9; Win B: 1
+Variable (SAM): _hp -> 32; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 33; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 34; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 35; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 36; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 37; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 38; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 39; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 40; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 41; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 42; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 43; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 44; Win A: 10; Win B: 0
+
+New Battle!
+Variable (SAM): _hp -> 25; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 26; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 27; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 28; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 29; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 30; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 31; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 32; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 33; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 34; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 35; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 36; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 37; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 38; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 39; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 40; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 41; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 42; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 43; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 44; Win A: 0; Win B: 10
+
+New Battle!
+Variable (SAM): _hp -> 25; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 26; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 27; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 28; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 29; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 30; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 31; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 32; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 33; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 34; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 35; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 36; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 37; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 38; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 39; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 40; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 41; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 42; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 43; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 44; Win A: 0; Win B: 10
+
+New Battle!
+Variable (SAM): _hp -> 25; Win A: 2; Win B: 8
+Variable (SAM): _hp -> 26; Win A: 5; Win B: 5
+Variable (SAM): _hp -> 27; Win A: 5; Win B: 5
+Variable (SAM): _hp -> 28; Win A: 4; Win B: 6
+Variable (SAM): _hp -> 29; Win A: 9; Win B: 1
+Variable (SAM): _hp -> 30; Win A: 2; Win B: 8
+Variable (SAM): _hp -> 31; Win A: 8; Win B: 2
+Variable (SAM): _hp -> 32; Win A: 7; Win B: 3
+Variable (SAM): _hp -> 33; Win A: 7; Win B: 3
+Variable (SAM): _hp -> 34; Win A: 7; Win B: 3
+Variable (SAM): _hp -> 35; Win A: 6; Win B: 4
+Variable (SAM): _hp -> 36; Win A: 4; Win B: 6
+Variable (SAM): _hp -> 37; Win A: 9; Win B: 1
+Variable (SAM): _hp -> 38; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 39; Win A: 9; Win B: 1
+Variable (SAM): _hp -> 40; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 41; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 42; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 43; Win A: 8; Win B: 2
+Variable (SAM): _hp -> 44; Win A: 10; Win B: 0
+
+New Battle!
+Variable (SAM): _hp -> 25; Win A: 9; Win B: 1
+Variable (SAM): _hp -> 26; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 27; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 28; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 29; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 30; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 31; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 32; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 33; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 34; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 35; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 36; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 37; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 38; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 39; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 40; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 41; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 42; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 43; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 44; Win A: 10; Win B: 0
+
+New Battle!
+Variable (SAM): _hp -> 40; Win A: 1; Win B: 9
+Variable (SAM): _hp -> 41; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 42; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 43; Win A: 1; Win B: 9
+Variable (SAM): _hp -> 44; Win A: 2; Win B: 8
+Variable (SAM): _hp -> 45; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 46; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 47; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 48; Win A: 2; Win B: 8
+Variable (SAM): _hp -> 49; Win A: 3; Win B: 7
+Variable (SAM): _hp -> 50; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 51; Win A: 1; Win B: 9
+Variable (SAM): _hp -> 52; Win A: 2; Win B: 8
+Variable (SAM): _hp -> 53; Win A: 1; Win B: 9
+Variable (SAM): _hp -> 54; Win A: 1; Win B: 9
+Variable (SAM): _hp -> 55; Win A: 2; Win B: 8
+Variable (SAM): _hp -> 56; Win A: 2; Win B: 8
+Variable (SAM): _hp -> 57; Win A: 4; Win B: 6
+Variable (SAM): _hp -> 58; Win A: 3; Win B: 7
+Variable (SAM): _hp -> 59; Win A: 1; Win B: 9
+
+New Battle!
+Variable (SAM): _hp -> 40; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 41; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 42; Win A: 9; Win B: 1
+Variable (SAM): _hp -> 43; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 44; Win A: 9; Win B: 1
+Variable (SAM): _hp -> 45; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 46; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 47; Win A: 9; Win B: 1
+Variable (SAM): _hp -> 48; Win A: 9; Win B: 1
+Variable (SAM): _hp -> 49; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 50; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 51; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 52; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 53; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 54; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 55; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 56; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 57; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 58; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 59; Win A: 10; Win B: 0
+
+New Battle!
+Variable (SAM): _hp -> 40; Win A: 5; Win B: 5
+Variable (SAM): _hp -> 41; Win A: 8; Win B: 2
+Variable (SAM): _hp -> 42; Win A: 7; Win B: 3
+Variable (SAM): _hp -> 43; Win A: 9; Win B: 1
+Variable (SAM): _hp -> 44; Win A: 6; Win B: 4
+Variable (SAM): _hp -> 45; Win A: 8; Win B: 2
+Variable (SAM): _hp -> 46; Win A: 8; Win B: 2
+Variable (SAM): _hp -> 47; Win A: 6; Win B: 4
+Variable (SAM): _hp -> 48; Win A: 9; Win B: 1
+Variable (SAM): _hp -> 49; Win A: 8; Win B: 2
+Variable (SAM): _hp -> 50; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 51; Win A: 8; Win B: 2
+Variable (SAM): _hp -> 52; Win A: 8; Win B: 2
+Variable (SAM): _hp -> 53; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 54; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 55; Win A: 9; Win B: 1
+Variable (SAM): _hp -> 56; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 57; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 58; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 59; Win A: 10; Win B: 0
