@@ -162,7 +162,7 @@ MonoBehaviour:
   BaseAttack: 8
   CurrentAmmo: 5
   MaxAmmo: 5
-  PossibleCommands: 000000000500000006000000
+  PossibleCommands: 00000000
 --- !u!212 &8695805
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -288,9 +288,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Entities:
   - {fileID: 8695804}
-  - {fileID: 2057409986}
-  - {fileID: 1885939680}
-  - {fileID: 843760476}
+  - {fileID: 1612530094}
 --- !u!4 &385116442
 Transform:
   m_ObjectHideFlags: 0
@@ -470,7 +468,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &843760474
 Transform:
   m_ObjectHideFlags: 0
@@ -770,12 +768,12 @@ GameObject:
   - component: {fileID: 1612530094}
   - component: {fileID: 1612530093}
   m_Layer: 0
-  m_Name: Demon
+  m_Name: Morgan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!61 &1612530093
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -815,14 +813,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Team: 1
-  CurrentHealth: 0
-  MaxHealth: 100
-  BaseDefense: 5
-  InitialBaseAttack: 10
-  BaseAttack: 10
-  CurrentAmmo: 0
-  MaxAmmo: 2
-  PossibleCommands: 010000000000000002000000
+  CurrentHealth: 60
+  MaxHealth: 60
+  BaseDefense: 6
+  InitialBaseAttack: 6
+  BaseAttack: 6
+  CurrentAmmo: 8
+  MaxAmmo: 8
+  PossibleCommands: 000000000500000006000000
 --- !u!212 &1612530095
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -976,7 +974,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1885939678
 Transform:
   m_ObjectHideFlags: 0
@@ -1110,7 +1108,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2057409986
 MonoBehaviour:
   m_ObjectHideFlags: 0

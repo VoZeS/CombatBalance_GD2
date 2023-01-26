@@ -28,16 +28,34 @@ public class CombatManager_Auto : MonoBehaviour
     int[] winB = new int[20];
     int iteration = 0;
 
-    int[] _hp = new int[20];
-    float[] _attack = new float[20];
+    //int[] _hp = new int[20];
+    //float[] _attack = new float[20];
 
 
     void Sensitivity()
     {
         for (int i = 0; i < 20; i++)
         {
-            //_attack[i] = (i / 10.0f) + 3.0f;
-            _hp[i] = i + 40 ;
+            //_hp[i] = i + 15;
+
+            //_attack[i] = (i / 10.0f) + 3.5f;
+
+            //if (_hp[i] <= 20)
+            //{
+            //    _attack[i] = (i / 10.0f) + 3.5f;
+
+            //}
+            //else if (_hp[i] > 20 && _hp[i] < 25)
+            //{
+            //    _attack[i] = i;
+
+            //}
+            //else if (_hp[i] >= 25)
+            //{
+            //    _attack[i] = (i / 2.0f) + 4.5f;
+
+            //}
+
             RepeatBattle();
             iteration++;
         }
@@ -59,8 +77,9 @@ public class CombatManager_Auto : MonoBehaviour
             //writer.WriteLine("Variable: _attack (SAM) -> " + (float)_attack[i] + "; Win A: " + winA[i] + "; Win B: " + winB[i]);
             //writer.WriteLine("Variable: _attack (HANK) -> " + _attack[i] + "; Win A: " + winA[i] + "; Win B: " + winB[i]);
             //writer.WriteLine("Variable: GRUP DE BATALLES NUMERO -> " + i + "; Win A: " + winA[i] + "; Win B: " + winB[i]);
-            writer.WriteLine("Variable (SAM): _hp -> " + _hp[i] + "; Win A: " + winA[i] + "; Win B: " + winB[i]);
-            //writer.WriteLine("Variable (SAM): _hp -> " + _hp[i] + " & _attack ->" + _attack[i] + "; Win A: " + winA[i] + "; Win B: " + winB[i]);
+            //writer.WriteLine("Variable (SAM): _hp -> " + _hp[i] + "; Win A: " + winA[i] + "; Win B: " + winB[i]);
+            //writer.WriteLine("Variable (SAM): _hp -> " + _hp[i] + " & _attack ->" + (float)_attack[i] + "; Win A: " + winA[i] + "; Win B: " + winB[i]);
+            writer.WriteLine("Win A: " + winA[i] + "; Win B: " + winB[i]);
         }
 
         writer.Close();
@@ -93,7 +112,7 @@ public class CombatManager_Auto : MonoBehaviour
             fighter.SetParameters((float)fighter.MaxHealth, (float)fighter.InitialBaseAttack, (float)fighter.BaseDefense, fighter.MaxAmmo);
         }
 
-        EntityManager.AllFighters[0].SetParameters(_hp[iteration], (float)EntityManager.AllFighters[0].InitialBaseAttack, (float)EntityManager.AllFighters[0].BaseDefense, EntityManager.AllFighters[0].MaxAmmo);
+        //EntityManager.AllFighters[0].SetParameters(_hp[iteration], (float)EntityManager.AllFighters[0].InitialBaseAttack, (float)EntityManager.AllFighters[0].BaseDefense, EntityManager.AllFighters[0].MaxAmmo);
         //EntityManager.AllFighters[0].SetParameters((float)EntityManager.AllFighters[0].MaxHealth, _attack[iteration], (float)EntityManager.AllFighters[0].BaseDefense, EntityManager.AllFighters[0].MaxAmmo);
         //EntityManager.AllFighters[0].SetParameters(_hp[iteration], _attack[iteration], (float)EntityManager.AllFighters[0].BaseDefense, EntityManager.AllFighters[0].MaxAmmo);
 

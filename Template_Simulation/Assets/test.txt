@@ -680,3 +680,509 @@ Variable (SAM): _hp -> 56; Win A: 10; Win B: 0
 Variable (SAM): _hp -> 57; Win A: 10; Win B: 0
 Variable (SAM): _hp -> 58; Win A: 10; Win B: 0
 Variable (SAM): _hp -> 59; Win A: 10; Win B: 0
+
+New Battle!
+Variable (SAM): _hp -> 10 & _attack ->3; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 11 & _attack ->3,1; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 12 & _attack ->3,2; Win A: 1; Win B: 9
+Variable (SAM): _hp -> 13 & _attack ->3,3; Win A: 4; Win B: 6
+Variable (SAM): _hp -> 14 & _attack ->3,4; Win A: 3; Win B: 7
+Variable (SAM): _hp -> 15 & _attack ->3,5; Win A: 6; Win B: 4
+Variable (SAM): _hp -> 16 & _attack ->3,6; Win A: 6; Win B: 4
+Variable (SAM): _hp -> 17 & _attack ->3,7; Win A: 8; Win B: 2
+Variable (SAM): _hp -> 18 & _attack ->3,8; Win A: 8; Win B: 2
+Variable (SAM): _hp -> 19 & _attack ->3,9; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 20 & _attack ->4; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 21 & _attack ->4,1; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 22 & _attack ->4,2; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 23 & _attack ->4,3; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 24 & _attack ->4,4; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 25 & _attack ->4,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 26 & _attack ->4,6; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 27 & _attack ->4,7; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 28 & _attack ->4,8; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 29 & _attack ->4,9; Win A: 10; Win B: 0
+
+New Battle!
+Variable (SAM): _hp -> 20 & _attack ->5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 21 & _attack ->5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 22 & _attack ->5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 23 & _attack ->5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 24 & _attack ->5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 25 & _attack ->5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 26 & _attack ->5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 27 & _attack ->5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 28 & _attack ->5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 29 & _attack ->5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 30 & _attack ->5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 31 & _attack ->5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 32 & _attack ->5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 33 & _attack ->5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 34 & _attack ->5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 35 & _attack ->5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 36 & _attack ->5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 37 & _attack ->5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 38 & _attack ->5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 39 & _attack ->5; Win A: 10; Win B: 0
+
+New Battle!
+Variable (SAM): _hp -> 20 & _attack ->5; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 21 & _attack ->5; Win A: 1; Win B: 9
+Variable (SAM): _hp -> 22 & _attack ->5; Win A: 3; Win B: 7
+Variable (SAM): _hp -> 23 & _attack ->5; Win A: 3; Win B: 7
+Variable (SAM): _hp -> 24 & _attack ->5; Win A: 3; Win B: 7
+Variable (SAM): _hp -> 25 & _attack ->5; Win A: 3; Win B: 7
+Variable (SAM): _hp -> 26 & _attack ->5; Win A: 2; Win B: 8
+Variable (SAM): _hp -> 27 & _attack ->5; Win A: 5; Win B: 5
+Variable (SAM): _hp -> 28 & _attack ->5; Win A: 8; Win B: 2
+Variable (SAM): _hp -> 29 & _attack ->5; Win A: 7; Win B: 3
+Variable (SAM): _hp -> 30 & _attack ->5; Win A: 8; Win B: 2
+Variable (SAM): _hp -> 31 & _attack ->5; Win A: 4; Win B: 6
+Variable (SAM): _hp -> 32 & _attack ->5; Win A: 7; Win B: 3
+Variable (SAM): _hp -> 33 & _attack ->5; Win A: 8; Win B: 2
+Variable (SAM): _hp -> 34 & _attack ->5; Win A: 9; Win B: 1
+Variable (SAM): _hp -> 35 & _attack ->5; Win A: 8; Win B: 2
+Variable (SAM): _hp -> 36 & _attack ->5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 37 & _attack ->5; Win A: 9; Win B: 1
+Variable (SAM): _hp -> 38 & _attack ->5; Win A: 7; Win B: 3
+Variable (SAM): _hp -> 39 & _attack ->5; Win A: 9; Win B: 1
+
+New Battle!
+Variable (SAM): _hp -> 20 & _attack ->5; Win A: 3; Win B: 7
+Variable (SAM): _hp -> 21 & _attack ->6; Win A: 7; Win B: 3
+Variable (SAM): _hp -> 22 & _attack ->7; Win A: 8; Win B: 2
+Variable (SAM): _hp -> 23 & _attack ->8; Win A: 8; Win B: 2
+Variable (SAM): _hp -> 24 & _attack ->9; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 25 & _attack ->10; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 26 & _attack ->11; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 27 & _attack ->12; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 28 & _attack ->13; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 29 & _attack ->14; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 30 & _attack ->15; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 31 & _attack ->16; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 32 & _attack ->17; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 33 & _attack ->18; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 34 & _attack ->19; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 35 & _attack ->20; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 36 & _attack ->21; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 37 & _attack ->22; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 38 & _attack ->23; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 39 & _attack ->24; Win A: 10; Win B: 0
+
+New Battle!
+Variable (SAM): _hp -> 20 & _attack ->0; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 21 & _attack ->1; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 22 & _attack ->2; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 23 & _attack ->3; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 24 & _attack ->4; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 25 & _attack ->5; Win A: 3; Win B: 7
+Variable (SAM): _hp -> 26 & _attack ->6; Win A: 7; Win B: 3
+Variable (SAM): _hp -> 27 & _attack ->7; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 28 & _attack ->8; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 29 & _attack ->9; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 30 & _attack ->10; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 31 & _attack ->11; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 32 & _attack ->12; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 33 & _attack ->13; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 34 & _attack ->14; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 35 & _attack ->15; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 36 & _attack ->16; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 37 & _attack ->17; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 38 & _attack ->18; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 39 & _attack ->19; Win A: 10; Win B: 0
+
+New Battle!
+Variable (SAM): _hp -> 20 & _attack ->5; Win A: 1; Win B: 9
+Variable (SAM): _hp -> 21 & _attack ->5; Win A: 1; Win B: 9
+Variable (SAM): _hp -> 22 & _attack ->6; Win A: 5; Win B: 5
+Variable (SAM): _hp -> 23 & _attack ->6; Win A: 5; Win B: 5
+Variable (SAM): _hp -> 24 & _attack ->7; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 25 & _attack ->7; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 26 & _attack ->8; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 27 & _attack ->8; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 28 & _attack ->9; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 29 & _attack ->9; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 30 & _attack ->10; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 31 & _attack ->10; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 32 & _attack ->11; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 33 & _attack ->11; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 34 & _attack ->12; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 35 & _attack ->12; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 36 & _attack ->13; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 37 & _attack ->13; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 38 & _attack ->14; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 39 & _attack ->14; Win A: 10; Win B: 0
+
+New Battle!
+Variable (SAM): _hp -> 24 & _attack ->9; Win A: 3; Win B: 7
+Variable (SAM): _hp -> 25 & _attack ->9; Win A: 6; Win B: 4
+Variable (SAM): _hp -> 26 & _attack ->10; Win A: 7; Win B: 3
+Variable (SAM): _hp -> 27 & _attack ->10; Win A: 6; Win B: 4
+Variable (SAM): _hp -> 28 & _attack ->11; Win A: 7; Win B: 3
+Variable (SAM): _hp -> 29 & _attack ->11; Win A: 8; Win B: 2
+Variable (SAM): _hp -> 30 & _attack ->12; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 31 & _attack ->12; Win A: 9; Win B: 1
+Variable (SAM): _hp -> 32 & _attack ->13; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 33 & _attack ->13; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 34 & _attack ->14; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 35 & _attack ->14; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 36 & _attack ->15; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 37 & _attack ->15; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 38 & _attack ->16; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 39 & _attack ->16; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 40 & _attack ->17; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 41 & _attack ->17; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 42 & _attack ->18; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 43 & _attack ->18; Win A: 10; Win B: 0
+
+New Battle!
+Variable (SAM): _hp -> 15 & _attack ->3,5; Win A: 7; Win B: 3
+Variable (SAM): _hp -> 16 & _attack ->3,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 17 & _attack ->3,5; Win A: 8; Win B: 2
+Variable (SAM): _hp -> 18 & _attack ->3,5; Win A: 9; Win B: 1
+Variable (SAM): _hp -> 19 & _attack ->3,5; Win A: 9; Win B: 1
+Variable (SAM): _hp -> 20 & _attack ->3,5; Win A: 8; Win B: 2
+Variable (SAM): _hp -> 21 & _attack ->3,5; Win A: 9; Win B: 1
+Variable (SAM): _hp -> 22 & _attack ->3,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 23 & _attack ->3,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 24 & _attack ->3,5; Win A: 9; Win B: 1
+Variable (SAM): _hp -> 25 & _attack ->4,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 26 & _attack ->4,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 27 & _attack ->4,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 28 & _attack ->4,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 29 & _attack ->4,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 30 & _attack ->4,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 31 & _attack ->4,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 32 & _attack ->4,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 33 & _attack ->4,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 34 & _attack ->4,5; Win A: 10; Win B: 0
+
+New Battle!
+Variable (SAM): _hp -> 15 & _attack ->3,5; Win A: 7; Win B: 3
+Variable (SAM): _hp -> 16 & _attack ->3,5; Win A: 7; Win B: 3
+Variable (SAM): _hp -> 17 & _attack ->3,5; Win A: 6; Win B: 4
+Variable (SAM): _hp -> 18 & _attack ->3,5; Win A: 8; Win B: 2
+Variable (SAM): _hp -> 19 & _attack ->3,5; Win A: 9; Win B: 1
+Variable (SAM): _hp -> 20 & _attack ->3,5; Win A: 8; Win B: 2
+Variable (SAM): _hp -> 21 & _attack ->12; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 22 & _attack ->13; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 23 & _attack ->14; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 24 & _attack ->15; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 25 & _attack ->16; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 26 & _attack ->17; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 27 & _attack ->18; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 28 & _attack ->19; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 29 & _attack ->20; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 30 & _attack ->21; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 31 & _attack ->22; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 32 & _attack ->23; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 33 & _attack ->24; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 34 & _attack ->25; Win A: 10; Win B: 0
+
+New Battle!
+Variable (SAM): _hp -> 15 & _attack ->3,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 16 & _attack ->3,5; Win A: 8; Win B: 2
+Variable (SAM): _hp -> 17 & _attack ->3,5; Win A: 7; Win B: 3
+Variable (SAM): _hp -> 18 & _attack ->3,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 19 & _attack ->3,5; Win A: 8; Win B: 2
+Variable (SAM): _hp -> 20 & _attack ->3,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 21 & _attack ->12; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 22 & _attack ->13; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 23 & _attack ->14; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 24 & _attack ->15; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 25 & _attack ->14,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 26 & _attack ->14,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 27 & _attack ->15,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 28 & _attack ->15,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 29 & _attack ->16,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 30 & _attack ->16,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 31 & _attack ->17,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 32 & _attack ->17,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 33 & _attack ->18,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 34 & _attack ->18,5; Win A: 10; Win B: 0
+
+New Battle!
+Variable (SAM): _hp -> 15 & _attack ->3,5; Win A: 6; Win B: 4
+Variable (SAM): _hp -> 16 & _attack ->3,5; Win A: 8; Win B: 2
+Variable (SAM): _hp -> 17 & _attack ->3,5; Win A: 7; Win B: 3
+Variable (SAM): _hp -> 18 & _attack ->3,5; Win A: 9; Win B: 1
+Variable (SAM): _hp -> 19 & _attack ->3,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 20 & _attack ->3,5; Win A: 9; Win B: 1
+Variable (SAM): _hp -> 21 & _attack ->9,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 22 & _attack ->10,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 23 & _attack ->11,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 24 & _attack ->12,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 25 & _attack ->8,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 26 & _attack ->8,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 27 & _attack ->9,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 28 & _attack ->9,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 29 & _attack ->10,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 30 & _attack ->10,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 31 & _attack ->11,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 32 & _attack ->11,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 33 & _attack ->12,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 34 & _attack ->12,5; Win A: 10; Win B: 0
+
+New Battle!
+Variable (SAM): _hp -> 15 & _attack ->3,5; Win A: 8; Win B: 2
+Variable (SAM): _hp -> 16 & _attack ->3,5; Win A: 6; Win B: 4
+Variable (SAM): _hp -> 17 & _attack ->3,5; Win A: 8; Win B: 2
+Variable (SAM): _hp -> 18 & _attack ->3,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 19 & _attack ->3,5; Win A: 7; Win B: 3
+Variable (SAM): _hp -> 20 & _attack ->3,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 21 & _attack ->3,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 22 & _attack ->3,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 23 & _attack ->3,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 24 & _attack ->3,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 25 & _attack ->4,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 26 & _attack ->4,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 27 & _attack ->4,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 28 & _attack ->4,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 29 & _attack ->4,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 30 & _attack ->4,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 31 & _attack ->4,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 32 & _attack ->4,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 33 & _attack ->4,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 34 & _attack ->4,5; Win A: 10; Win B: 0
+
+New Battle!
+Variable: _attack (SAM) -> 3,5; Win A: 8; Win B: 2
+Variable: _attack (SAM) -> 3,5; Win A: 4; Win B: 6
+Variable: _attack (SAM) -> 3,5; Win A: 8; Win B: 2
+Variable: _attack (SAM) -> 3,5; Win A: 9; Win B: 1
+Variable: _attack (SAM) -> 3,5; Win A: 9; Win B: 1
+Variable: _attack (SAM) -> 3,5; Win A: 10; Win B: 0
+Variable: _attack (SAM) -> 3,5; Win A: 9; Win B: 1
+Variable: _attack (SAM) -> 3,5; Win A: 9; Win B: 1
+Variable: _attack (SAM) -> 3,5; Win A: 10; Win B: 0
+Variable: _attack (SAM) -> 3,5; Win A: 10; Win B: 0
+Variable: _attack (SAM) -> 4,5; Win A: 10; Win B: 0
+Variable: _attack (SAM) -> 4,5; Win A: 10; Win B: 0
+Variable: _attack (SAM) -> 4,5; Win A: 10; Win B: 0
+Variable: _attack (SAM) -> 4,5; Win A: 10; Win B: 0
+Variable: _attack (SAM) -> 4,5; Win A: 10; Win B: 0
+Variable: _attack (SAM) -> 4,5; Win A: 10; Win B: 0
+Variable: _attack (SAM) -> 4,5; Win A: 10; Win B: 0
+Variable: _attack (SAM) -> 4,5; Win A: 10; Win B: 0
+Variable: _attack (SAM) -> 4,5; Win A: 10; Win B: 0
+Variable: _attack (SAM) -> 4,5; Win A: 10; Win B: 0
+
+New Battle!
+Variable (SAM): _hp -> 15 & _attack ->3,5; Win A: 8; Win B: 2
+Variable (SAM): _hp -> 16 & _attack ->3,6; Win A: 7; Win B: 3
+Variable (SAM): _hp -> 17 & _attack ->3,7; Win A: 8; Win B: 2
+Variable (SAM): _hp -> 18 & _attack ->3,8; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 19 & _attack ->3,9; Win A: 8; Win B: 2
+Variable (SAM): _hp -> 20 & _attack ->4; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 21 & _attack ->9,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 22 & _attack ->10,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 23 & _attack ->11,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 24 & _attack ->12,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 25 & _attack ->8,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 26 & _attack ->9; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 27 & _attack ->9,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 28 & _attack ->10; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 29 & _attack ->10,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 30 & _attack ->11; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 31 & _attack ->11,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 32 & _attack ->12; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 33 & _attack ->12,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 34 & _attack ->13; Win A: 10; Win B: 0
+
+New Battle!
+Variable (SAM): _hp -> 15 & _attack ->3,5; Win A: 8; Win B: 2
+Variable (SAM): _hp -> 16 & _attack ->3,6; Win A: 9; Win B: 1
+Variable (SAM): _hp -> 17 & _attack ->3,7; Win A: 9; Win B: 1
+Variable (SAM): _hp -> 18 & _attack ->3,8; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 19 & _attack ->3,9; Win A: 9; Win B: 1
+Variable (SAM): _hp -> 20 & _attack ->4; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 21 & _attack ->5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 22 & _attack ->6; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 23 & _attack ->7; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 24 & _attack ->8; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 25 & _attack ->8,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 26 & _attack ->9; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 27 & _attack ->9,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 28 & _attack ->10; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 29 & _attack ->10,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 30 & _attack ->11; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 31 & _attack ->11,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 32 & _attack ->12; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 33 & _attack ->12,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 34 & _attack ->13; Win A: 10; Win B: 0
+
+New Battle!
+Variable (SAM): _hp -> 15 & _attack ->3,5; Win A: 9; Win B: 1
+Variable (SAM): _hp -> 16 & _attack ->3,6; Win A: 9; Win B: 1
+Variable (SAM): _hp -> 17 & _attack ->3,7; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 18 & _attack ->3,8; Win A: 8; Win B: 2
+Variable (SAM): _hp -> 19 & _attack ->3,9; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 20 & _attack ->4; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 21 & _attack ->6; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 22 & _attack ->7; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 23 & _attack ->8; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 24 & _attack ->9; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 25 & _attack ->8,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 26 & _attack ->9; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 27 & _attack ->9,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 28 & _attack ->10; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 29 & _attack ->10,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 30 & _attack ->11; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 31 & _attack ->11,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 32 & _attack ->12; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 33 & _attack ->12,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 34 & _attack ->13; Win A: 10; Win B: 0
+
+New Battle!
+Variable (SAM): _hp -> 15 & _attack ->3,5; Win A: 8; Win B: 2
+Variable (SAM): _hp -> 16 & _attack ->3,6; Win A: 9; Win B: 1
+Variable (SAM): _hp -> 17 & _attack ->3,7; Win A: 9; Win B: 1
+Variable (SAM): _hp -> 18 & _attack ->3,8; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 19 & _attack ->3,9; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 20 & _attack ->4; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 21 & _attack ->6; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 22 & _attack ->7; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 23 & _attack ->8; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 24 & _attack ->9; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 25 & _attack ->5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 26 & _attack ->5,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 27 & _attack ->6; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 28 & _attack ->6,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 29 & _attack ->7; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 30 & _attack ->7,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 31 & _attack ->8; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 32 & _attack ->8,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 33 & _attack ->9; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 34 & _attack ->9,5; Win A: 10; Win B: 0
+
+New Battle!
+Variable (SAM): _hp -> 15 & _attack ->3,5; Win A: 5; Win B: 5
+Variable (SAM): _hp -> 16 & _attack ->3,6; Win A: 6; Win B: 4
+Variable (SAM): _hp -> 17 & _attack ->3,7; Win A: 9; Win B: 1
+Variable (SAM): _hp -> 18 & _attack ->3,8; Win A: 9; Win B: 1
+Variable (SAM): _hp -> 19 & _attack ->3,9; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 20 & _attack ->4; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 21 & _attack ->6; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 22 & _attack ->7; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 23 & _attack ->8; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 24 & _attack ->9; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 25 & _attack ->9,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 26 & _attack ->10; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 27 & _attack ->10,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 28 & _attack ->11; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 29 & _attack ->11,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 30 & _attack ->12; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 31 & _attack ->12,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 32 & _attack ->13; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 33 & _attack ->13,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 34 & _attack ->14; Win A: 10; Win B: 0
+
+New Battle!
+Variable (SAM): _hp -> 15 & _attack ->3,5; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 16 & _attack ->3,6; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 17 & _attack ->3,7; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 18 & _attack ->3,8; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 19 & _attack ->3,9; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 20 & _attack ->4; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 21 & _attack ->6; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 22 & _attack ->7; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 23 & _attack ->8; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 24 & _attack ->9; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 25 & _attack ->9,5; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 26 & _attack ->10; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 27 & _attack ->10,5; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 28 & _attack ->11; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 29 & _attack ->11,5; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 30 & _attack ->12; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 31 & _attack ->12,5; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 32 & _attack ->13; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 33 & _attack ->13,5; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 34 & _attack ->14; Win A: 0; Win B: 10
+
+New Battle!
+Variable (SAM): _hp -> 15 & _attack ->3,5; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 16 & _attack ->3,6; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 17 & _attack ->3,7; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 18 & _attack ->3,8; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 19 & _attack ->3,9; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 20 & _attack ->4; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 21 & _attack ->6; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 22 & _attack ->7; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 23 & _attack ->8; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 24 & _attack ->9; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 25 & _attack ->9,5; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 26 & _attack ->10; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 27 & _attack ->10,5; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 28 & _attack ->11; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 29 & _attack ->11,5; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 30 & _attack ->12; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 31 & _attack ->12,5; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 32 & _attack ->13; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 33 & _attack ->13,5; Win A: 1; Win B: 9
+Variable (SAM): _hp -> 34 & _attack ->14; Win A: 3; Win B: 7
+
+New Battle!
+Variable (SAM): _hp -> 15 & _attack ->3,5; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 16 & _attack ->3,6; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 17 & _attack ->3,7; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 18 & _attack ->3,8; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 19 & _attack ->3,9; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 20 & _attack ->4; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 21 & _attack ->6; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 22 & _attack ->7; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 23 & _attack ->8; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 24 & _attack ->9; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 25 & _attack ->9,5; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 26 & _attack ->10; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 27 & _attack ->10,5; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 28 & _attack ->11; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 29 & _attack ->11,5; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 30 & _attack ->12; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 31 & _attack ->12,5; Win A: 1; Win B: 9
+Variable (SAM): _hp -> 32 & _attack ->13; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 33 & _attack ->13,5; Win A: 3; Win B: 7
+Variable (SAM): _hp -> 34 & _attack ->14; Win A: 2; Win B: 8
+
+New Battle!
+Variable (SAM): _hp -> 15 & _attack ->3,5; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 16 & _attack ->3,6; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 17 & _attack ->3,7; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 18 & _attack ->3,8; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 19 & _attack ->3,9; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 20 & _attack ->4; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 21 & _attack ->6; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 22 & _attack ->7; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 23 & _attack ->8; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 24 & _attack ->9; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 25 & _attack ->9,5; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 26 & _attack ->10; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 27 & _attack ->10,5; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 28 & _attack ->11; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 29 & _attack ->11,5; Win A: 1; Win B: 9
+Variable (SAM): _hp -> 30 & _attack ->12; Win A: 3; Win B: 7
+Variable (SAM): _hp -> 31 & _attack ->12,5; Win A: 2; Win B: 8
+Variable (SAM): _hp -> 32 & _attack ->13; Win A: 5; Win B: 5
+Variable (SAM): _hp -> 33 & _attack ->13,5; Win A: 6; Win B: 4
+Variable (SAM): _hp -> 34 & _attack ->14; Win A: 8; Win B: 2
+
+New Battle!
+Variable (SAM): _hp -> 15 & _attack ->3,5; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 16 & _attack ->3,6; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 17 & _attack ->3,7; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 18 & _attack ->3,8; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 19 & _attack ->3,9; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 20 & _attack ->4; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 21 & _attack ->6; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 22 & _attack ->7; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 23 & _attack ->8; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 24 & _attack ->9; Win A: 0; Win B: 10
+Variable (SAM): _hp -> 25 & _attack ->9,5; Win A: 1; Win B: 9
+Variable (SAM): _hp -> 26 & _attack ->10; Win A: 2; Win B: 8
+Variable (SAM): _hp -> 27 & _attack ->10,5; Win A: 1; Win B: 9
+Variable (SAM): _hp -> 28 & _attack ->11; Win A: 1; Win B: 9
+Variable (SAM): _hp -> 29 & _attack ->11,5; Win A: 1; Win B: 9
+Variable (SAM): _hp -> 30 & _attack ->12; Win A: 7; Win B: 3
+Variable (SAM): _hp -> 31 & _attack ->12,5; Win A: 4; Win B: 6
+Variable (SAM): _hp -> 32 & _attack ->13; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 33 & _attack ->13,5; Win A: 10; Win B: 0
+Variable (SAM): _hp -> 34 & _attack ->14; Win A: 10; Win B: 0
