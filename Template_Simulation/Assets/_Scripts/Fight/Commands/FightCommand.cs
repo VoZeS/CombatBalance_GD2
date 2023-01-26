@@ -20,7 +20,6 @@ public abstract class FightCommand : ICommand
         _priority = priority;
     }
 
-
     public void SetFighters(Fighter executor, Fighter target)
     {
         _executor = executor;

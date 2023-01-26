@@ -155,14 +155,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Team: 0
-  CurrentHealth: 20
-  MaxHealth: 20
+  CurrentHealth: 15
+  MaxHealth: 15
   BaseDefense: 3
-  InitialBaseAttack: 8
-  BaseAttack: 8
+  InitialBaseAttack: 3.5
+  BaseAttack: 3.5
   CurrentAmmo: 5
   MaxAmmo: 5
-  PossibleCommands: 00000000
+  PossibleCommands: 0000000006000000
 --- !u!212 &8695805
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -288,7 +288,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Entities:
   - {fileID: 8695804}
-  - {fileID: 1612530094}
+  - {fileID: 2057409986}
 --- !u!4 &385116442
 Transform:
   m_ObjectHideFlags: 0
@@ -773,7 +773,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &1612530093
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1108,7 +1108,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &2057409986
 MonoBehaviour:
   m_ObjectHideFlags: 0
